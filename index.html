@@ -34,18 +34,14 @@
     {
         label: 'Учбові Матеріали:',
         children: [
-            { label: '<' },
+            { label: document.write('<a href="https://pp16-20.pp.ua/educational-materials.html"> Учбові матеріали</a>') },
             { label: '<a href="https://pp16-20.pp.ua/educational-materials.html"> Учбові матеріали</a>' }
         ]
     }
 ];
 $(function() {
     $('#myTree').tree({
-        data: data,
-        onCreateLi: function(node, $li) {
-        
-        $li.find('.jqtree-title').before('a href="https://pp16-20.pp.ua/TTH.html">Тактико-технічні характеристики зброї</a>');
-      }
+        data: data 
     });
 });
     </script>
