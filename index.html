@@ -25,6 +25,29 @@
     <!-- Scripts JS -->
     <script src="./assets/scripts/script.js"></script>
     <!-- //Scripts JS -->
+
+    <script>
+       var data = [
+    {
+        label: 'node1',
+        children: [
+            { label: 'child1' },
+            { label: 'child2' }
+        ]
+    },
+    {
+        label: 'node2',
+        children: [
+            { label: 'child3' }
+        ]
+    }
+];
+$(function() {
+    $('#tree1').tree({
+        data: data
+    });
+});
+    </script>
 </body>
 
 </html>
