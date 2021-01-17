@@ -17,48 +17,7 @@
 
     <h1 style="text-align: center; color: blue;">repo-name-10</h1>
 
-<div>
-    <div class="focus"> List
-
-     <ul class="dnon">
-       <li>list1 </li>
-       <li>list2 </li>
-       <li>list3 </li>
-      </ul>
-    </div>
-</div>
-<style>
-   .focus:focus-visible {
-     color: red;
-     display: flex;
-
-   }
-   .dnon {
-
-     display: none;
-   }
-
-</style>
-
-
------------------------------------
    <div id="myTree"></div>
-
-  <label for="cars">Учбове Меню:</label>
-  <select name="cars" id="cars">
-    <option value="Сайт">
-       <a href="https://dmitriy-1986.github.io/squad-pp16-20">Сайт навчальної групи ПП 16-20</a>
-    </option>
-    <option value="ТТХ">
-       <a href="https://pp16-20.pp.ua/TTH.html">Тактико-технічні характеристики зброї</a>
-    </option>
-    <option value="Матеріали">
-       <a href="https://pp16-20.pp.ua/educational-materials.html"> Учбові матеріали</a>
-    </option>
-    <option value="Відгуки">
-       <a href="https://pp16-20.pp.ua/form-feedback.html">Залишити відгуки</a>
-     </option>
-  </select>
 
     <!-- jQuery CDN -->
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"
@@ -70,10 +29,13 @@
     <!-- //Scripts JS -->
 <script src="./assets/libs/tree.jquery.js"></script>
     <script>
+       let link = '<a href="https://pp16-20.pp.ua">Учбові матеріали</a>';
        var data = [
     {
         label: 'Учбові Матеріали:',
         children: [
+            { label: link },
+            { label: ' Учбові матеріали' },
             { label: ' Учбові матеріали' },
             { label: ' Учбові матеріали' }
         ]
@@ -88,26 +50,3 @@ $(function() {
 </body>
 
 </html>
-
-<!--
-<ul>
-   <li>
-      <a href="https://dmitriy-1986.github.io/squad-pp16-20">Сайт навчальної групи ПП 16-20</a>
-   </li>
-   <li>
-     <a href="https://pp16-20.pp.ua/TTH.html">Тактико-технічні характеристики зброї</a>
-   </li>
-   <li>
-     <a href="https://pp16-20.pp.ua/educational-materials.html"> Учбові матеріали</a>
-   </li>
-   <li>
-     <a href="https://pp16-20.pp.ua/form-feedback.html">Залишити відгуки</a>
-   </li>
-   <li>
-     <a href="https://pp16-20.pp.ua/test-kku.html">Тестування ККУ</a>
-   </li>
-    <li>
-     <a href="https://pp16-20.pp.ua/test-kpk.html">Тестування КПКУ</a>
-   </li>
-</ul>
--->
