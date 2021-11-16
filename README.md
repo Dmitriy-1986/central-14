@@ -1,1 +1,1 @@
-https://dmitriy-1986.github.io/repo-name-10/.
+https://dmitriy-1986.github.io/central-14/.
