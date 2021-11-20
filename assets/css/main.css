@@ -2456,3 +2456,106 @@ p {
 .free-version-banner .button .btn .dir-part {
   background-color: #333;
 }
+
+
+.contact-area {
+  background: #fff;
+}
+
+.contact-area .contact-address-wrapper {
+  padding-right: 50px;
+}
+
+.contact-area .inner-section-title {
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.contact-area .inner-section-title h4 {
+  text-transform: capitalize;
+  font-size: 14px;
+  display: inline-block;
+  background: #3e54ff;
+  color: #fff;
+  padding: 4px 18px;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.contact-area .inner-section-title h2 {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.contact-area .single-info {
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+  border-bottom: 2px solid #eee;
+}
+
+.contact-area .single-info ul li span {
+  display: block;
+}
+
+.contact-area .single-info ul li a {
+  display: inline-block;
+  color: #333;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+.contact-area .single-info ul li a:hover {
+  color: #3E54FF;
+}
+
+.contacts-form input {
+  border: none;
+  height: 60px;
+  margin-bottom: 20px;
+  padding: 0 28px !important;
+  width: 100%;
+  font-size: 14px;
+  color: #333 !important;
+  font-weight: 600;
+  border-radius: 0;
+  background: #f3f3f3;
+  background: transparent;
+  border: 2px solid #eee !important;
+  border-radius: 0 !important;
+}
+
+.contacts-form textarea {
+  border: none;
+  height: 150px;
+  margin-bottom: 20px;
+  padding: 28px;
+  width: 100%;
+  font-size: 14px;
+  color: #181E4E;
+  font-weight: 600;
+  border-radius: 0;
+  background: #f3f3f3;
+  background: transparent;
+  border: 2px solid #eee;
+}
+
+.contacts-button button {
+  padding: 16px 30px;
+  width: 100%;
+  border: none;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 0;
+  line-height: 1;
+  transition: 0.3s;
+  cursor: pointer;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  color: #fff;
+  background: #3E54FF;
+      background-color: rgb(62, 84, 255);
+  height: 60px;
+}
