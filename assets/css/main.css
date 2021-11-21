@@ -2551,3 +2551,24 @@ p {
       background-color: rgb(62, 84, 255);
   height: 60px;
 }
+
+
+.error-page {
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.error-page .error-image img {
+  width: 80%;
+  text-align: right;
+  float: right;
+}
+
+.error-page .error-text {
+  flex-direction: initial;
+  height: auto;
+  text-align: left;
+  margin-top: 80px;
+}
