@@ -1394,8 +1394,7 @@ p {
   content: "";
   right: 0;
   width: 50%;
-  /*background-image: url(../images/бц14.png);*/
-  background-image: url(../images/obyavlenie.jpg);
+  background-image: url(../images/бц14.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
