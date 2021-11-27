@@ -1601,8 +1601,7 @@ p {
 
 .feature-right {
   position: relative;
-  /*background-image: url('../images/бц14-2.png');*/
-  background-image: url('../images/obyavlenie.jpg');
+  background-image: url('../images/бц14-2.png');
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
