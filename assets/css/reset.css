@@ -569,10 +569,12 @@ li > ol {
 
 dt {
 	font-weight: bold;
+	color: #7b7b7b;
 }
 
 dd {
 	margin: 0 1.5em 1.5em;
+	color: #7b7b7b;
 }
 
 img {
