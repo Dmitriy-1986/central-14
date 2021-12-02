@@ -2791,6 +2791,8 @@ p {
   background-color:#3e54ff;
   content:''
  }
+
+
 /*
  .sidebar .widget.search-widget form {
   position:relative
@@ -2828,6 +2830,8 @@ p {
   color:#fff
  }
 */
+
+
  .sidebar .widget.popular-feeds .single-popular-feed {
   display:flex;
   margin-bottom:20px;
