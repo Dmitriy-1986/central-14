@@ -2995,7 +2995,7 @@ blockquote h4 {
   top:1px;
   border-radius:0;
   /* transform:rotate(-45deg); */
-  content: url("../images/marker-li.png ");;
+  content: url("../images/marker-li.png ");
   font-family:icofont;
   text-align:left;
   color:#3e54ff;
