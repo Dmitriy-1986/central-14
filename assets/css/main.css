@@ -2709,6 +2709,16 @@ p {
  .post-details .post-thumbnils {
   margin-bottom:30px
  }
+.post-thumbnils {
+   width: 756px;
+   height: 425px;
+ }
+.post-thumbnils img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   object-position: left bottom;
+ }
  .post-details .post-title {
   font-weight:700;
   margin-bottom:25px;
